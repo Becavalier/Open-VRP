@@ -29,5 +29,8 @@
 (defvar christofides-2 
   (load-test-case-file (merge-pathnames "test-cases/Christofides_02.vrp" 
 					 (asdf:system-source-directory 'open-vrp))))
+(defvar testpi
+  (load-test-case-file (merge-pathnames "test-cases/testpi.txt"
+					  (asdf:system-source-directory 'open-vrp))))
 
 

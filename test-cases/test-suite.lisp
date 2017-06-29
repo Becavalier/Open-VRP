@@ -17,6 +17,7 @@
        (test ,(symb algo-symbol '-vrp) (is (solve-prob test-vrp (make-instance ,algo-symbol))))
        (test ,(symb algo-symbol '-25) (is (solve-prob solomon25 (make-instance ,algo-symbol))))
        (test ,(symb algo-symbol '-100) (is (solve-prob solomon100 (make-instance ,algo-symbol))))
+       (test ,(symb algo-symbol '-44) (is (solve-prob testpi (make-instance ,algo-symbol))))
        (test ,(symb algo-symbol '-chr1) (is (solve-prob christofides-1 (make-instance ,algo-symbol))))
        (test ,(symb algo-symbol '-chr2) (is (solve-prob christofides-2 (make-instance ,algo-symbol)))))))
 

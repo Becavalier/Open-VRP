@@ -264,6 +264,7 @@
 	   :test-vrp
 	   :solomon25
 	   :solomon100
+	   :testpi
 	   :christofides-1
 	   :christofides-2))
 
@@ -294,5 +295,6 @@
 	   :test-vrp
 	   :solomon25
 	   :solomon100
+	   :testpi
 	   :christofides-1
 	   :christofides-2))
